@@ -13,6 +13,12 @@
 * Deploy to Heroku
 * Refactor code
 
+# Team
+* Marika
+* Kyle
+* Karishma
+* Michael
+
 
 ----
 
