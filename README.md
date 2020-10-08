@@ -13,6 +13,23 @@
 * Deploy to Heroku
 * Refactor code
 
+# Team
+* Marika
+* Kyle
+* Karishma
+* Michael
+
+## Setup
+
+To get started, clone this repo and then:
+
+```
+cd TellStory
+npm install
+npm run dev
+```
+
+You can find the server running on [http://localhost:3000](http://localhost:3000).
 
 ----
 
