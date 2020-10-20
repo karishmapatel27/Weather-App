@@ -24,7 +24,7 @@
 To get started, clone this repo and then:
 
 ```
-cd TellStory
+cd WhetherPerson
 npm install
 npm run dev
 ```

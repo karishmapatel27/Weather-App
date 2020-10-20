@@ -4,8 +4,7 @@ import WeatherApi from './WeatherAPI'
 const App = () => {
   return (
     <>
-    <WeatherApi />
-    
+      <WeatherApi />
     </>
   )
 }
