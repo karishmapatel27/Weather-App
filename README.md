@@ -19,21 +19,6 @@
 * Karishma
 * Michael
 
-## Setup
-
-To get started, clone this repo and then:
-
-```
-cd WhetherPerson
-npm install
-npm run dev
-```
-
-You can find the server running on [http://localhost:3000](http://localhost:3000).
-
-----
-
-
 # General Outline of Tasks
 
 For this project we are mainly working on the client side.
@@ -81,6 +66,7 @@ This is a starter project that uses webpack to transpile and bundle ES6 React co
 ```sh
 git clone https://github.com/[your-account]/[your-app].git
 cd [your-app] && npm i
+npm run dev  - to start the server 
 ```
 
 To start the development server with a watcher that rebuilds your code, run `npm run dev`. The assets built by webpack are placed in `server/public`. This folder is defined as a static folder in an Express.js server that can be started with `npm run server`.
