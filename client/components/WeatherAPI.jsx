@@ -44,28 +44,20 @@ class WeatherApi extends React.Component {
 
   render() {
     const { weather, main, wind, name } = this.state
+
     return (
       <>
         <div id="div1">
           <h1 id="title">City Weather</h1>
-          <h3>Search: <input id="input" name='input'
-            value={this.state.input}
-            onChange={this.handleChange} />
-            <button id="button" onClick={this.handleClick}><span>Show me the Weather</span></button></h3> </div>
+          <input className="formInput" id="input" name='input' placeholder='City'
+            value={this.state.input} onChange={this.handleChange} />
+          <button className="button" onClick={this.handleClick}><span>Get Weather</span></button> </div>
+
         <div id="display">
-
           <h1> {this.state.name} </h1>
-          <h3>
-            {weather[0]?.description}
-          </h3>
-
-          <h1>
-            {main?.temp}
-          </h1>
-          <h3>
-            Wind Speed & Direction: {wind?.deg} degrees {wind?.speed}m/s
-      </h3>
-
+          <h3>{weather[0]?.description}</h3>
+          <h1>{main?.temp}</h1>
+          <h3>Wind Speed & Direction: {wind?.deg} degrees {wind?.speed}m/s</h3>
         </div>
       </>
     )
