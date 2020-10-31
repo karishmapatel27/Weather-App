@@ -52,16 +52,16 @@ class WeatherApi extends React.Component {
             value={this.state.input}
             onChange={this.handleChange} />
             <button id="button" onClick={this.handleClick}><span>Show me the Weather</span></button></h3> </div>
-        <div id="div2">
+        <div id="display">
 
-          <h2> {this.state.name} </h2>
+          <h1> {this.state.name} </h1>
           <h3>
-            How does it look outside? {weather[0]?.description}
+            {weather[0]?.description}
           </h3>
 
-          <h3>
-            Temperature: {main?.temp}
-          </h3>
+          <h1>
+            {main?.temp}
+          </h1>
           <h3>
             Wind Speed & Direction: {wind?.deg} degrees {wind?.speed}m/s
       </h3>

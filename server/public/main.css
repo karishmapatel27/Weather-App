@@ -1,5 +1,6 @@
 body{
-  background-image: url('./background.jpg')
+  background-image: url('./background.jpg');
+  background-size: 100vh;
 }
 
 #title{
@@ -8,11 +9,13 @@ body{
 }
 
 #div1{
-   margin: 50px 200px;
+  margin: 50px 0px;
+  text-align: center;
 }
 
-#div2{
-  margin: 80px 270px;
+#display{
+  margin: 80px 0px;
+  text-align: center;
 }
 
 #input{
