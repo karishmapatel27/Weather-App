@@ -51,7 +51,7 @@ class WeatherApi extends React.Component {
           <h1 id="title">City Weather</h1>
           <input className="formInput" id="input" name='input' placeholder='City'
             value={this.state.input} onChange={this.handleChange} />
-          <button className="button" onClick={this.handleClick}><span>Get Weather</span></button> </div>
+          <button className="button is-danger is-outlined" onClick={this.handleClick}><span>Get Weather</span></button> </div>
 
         <div id="display">
           <h1> {this.state.name} </h1>
