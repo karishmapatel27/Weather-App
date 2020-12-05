@@ -57,7 +57,7 @@ class WeatherApi extends React.Component {
           <h1> {this.state.name} </h1>
           <h2>{weather[0]?.description}</h2>
           <h1>{main?.temp}</h1>
-          <h3>Wind Speed & Direction: {wind?.deg} degrees {wind?.speed}m/s</h3>
+          <h2>Wind Speed & Direction: {wind?.deg} degrees {wind?.speed}m/s</h2>
         </div>
       </>
     )
