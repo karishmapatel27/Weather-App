@@ -1,7 +1,8 @@
 body{
   background-image: url('./night.webp');
   height: 100vh;
-  color: white
+  color: white;
+  padding: 3%;
 }
 
 #title{
@@ -27,6 +28,8 @@ h1{
 #display{
   margin: 80px 0px;
   text-align: center;
+  background-color: #6B69CA;
+  padding: 4%;
 }
 
 .formInput {
@@ -85,3 +88,88 @@ h1{
   right: 0;
 }
 
+@media screen and (min-width: 320px) and (max-width: 480px) {
+h1{
+  font-size: 2.5rem;
+}
+.button {
+  font-size: 15px;
+  padding: 10px 15px;
+  margin: 0px 3px;
+}
+.formInput {
+  width: 35%;
+  margin-top: 10%;
+  margin-bottom: 2%;
+  margin-right: 3%;
+  padding: 8px;
+  color: white;
+}
+#display h2{
+  font-size: 1.2rem;
+}
+#display{
+  margin: 80px 0px;
+  text-align: center;
+  background-color: #6B69CA;
+  padding: 4%;
+}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+h1{
+  font-size: 3.2rem;
+}
+.button {
+  font-size: 20px;
+  padding: 10px 15px;
+  margin: 0px 3px;
+}
+.formInput {
+  width: 35%;
+  margin-top: 10%;
+  margin-bottom: 2%;
+  margin-right: 3%;
+  padding: 8px;
+  color: white;
+  font-size: 1.3rem;
+}
+#display{
+  margin: 80px 0px;
+  text-align: center;
+  background-color: #6B69CA;
+  padding: 4%;
+}
+#display h2{
+  font-size: 1.5rem;
+}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+h1{
+  font-size: 3.2rem;
+}
+.button {
+  font-size: 20px;
+  padding: 10px 15px;
+  margin: 0px 3px;
+}
+.formInput {
+  width: 35%;
+  margin-top: 10%;
+  margin-bottom: 2%;
+  margin-right: 3%;
+  padding: 8px;
+  color: white;
+  font-size: 1.3rem;
+}
+#display{
+  margin: 80px 0px;
+  text-align: center;
+  background-color: #6B69CA;
+  padding: 4%;
+}
+#display h2{
+  font-size: 1.8rem;
+}
+}
